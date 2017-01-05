@@ -10,8 +10,19 @@ function MyApp:ctor()
 end
 
 function MyApp:run()
-    cc.FileUtils:getInstance():addSearchPath("res/")
+    
+    self:configGame()
+
     self:enterScene("MainScene")
+
+
+end
+
+function MyApp:configGame()
+
+	cc.FileUtils:getInstance():addSearchPath("res/")
+    cc.Director:getInstance():setContentScaleFactor(568 / CONFIG_SCREEN_HEIGHT)
+
 end
 
 return MyApp

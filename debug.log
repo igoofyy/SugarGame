@@ -22,7 +22,7 @@
 
 Quick-Cocos2dx-Community C++ support ready.
 ------------------------------------------------
-LOAD LUA FILE: /Users/goofy/coco/lua/sugar/sugar/src/main.lua
+LOAD LUA FILE: /Users/goofy/coco/lua/sugar/src/main.lua
 ------------------------------------------------
 [LUA-print] ===========================================================
 [LUA-print]               LOAD QUICK FRAMEWORK
@@ -33,27 +33,27 @@ LOAD LUA FILE: /Users/goofy/coco/lua/sugar/sugar/src/main.lua
 [LUA-print] [INFO] # device.platform              = mac
 [LUA-print] [INFO] # device.model                 = unknown
 [LUA-print] [INFO] # device.language              = cn
-[LUA-print] [INFO] # device.writablePath          = /Users/goofy/coco/lua/sugar/sugar/
+[LUA-print] [INFO] # device.writablePath          = /Users/goofy/coco/lua/sugar/
 [LUA-print] [INFO] # device.directorySeparator    = /
 [LUA-print] [INFO] # device.pathSeparator         = :
 [LUA-print] [INFO] #
 libpng warning: iCCP: known incorrect sRGB profile
 [LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
-[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 640.00
-[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 960.00
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 320.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 568.00
 [LUA-print] [INFO] # display.widthInPixels        = 640.00
-[LUA-print] [INFO] # display.heightInPixels       = 960.00
-[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
-[LUA-print] [INFO] # display.width                = 640.00
-[LUA-print] [INFO] # display.height               = 960.00
-[LUA-print] [INFO] # display.cx                   = 320.00
-[LUA-print] [INFO] # display.cy                   = 480.00
+[LUA-print] [INFO] # display.heightInPixels       = 1136.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 2.00
+[LUA-print] [INFO] # display.width                = 320.00
+[LUA-print] [INFO] # display.height               = 568.00
+[LUA-print] [INFO] # display.cx                   = 160.00
+[LUA-print] [INFO] # display.cy                   = 284.00
 [LUA-print] [INFO] # display.left                 = 0.00
-[LUA-print] [INFO] # display.right                = 640.00
-[LUA-print] [INFO] # display.top                  = 960.00
+[LUA-print] [INFO] # display.right                = 320.00
+[LUA-print] [INFO] # display.top                  = 568.00
 [LUA-print] [INFO] # display.bottom               = 0.00
-[LUA-print] [INFO] # display.c_left               = -320.00
-[LUA-print] [INFO] # display.c_right              = 320.00
-[LUA-print] [INFO] # display.c_top                = 480.00
-[LUA-print] [INFO] # display.c_bottom             = -480.00
+[LUA-print] [INFO] # display.c_left               = -160.00
+[LUA-print] [INFO] # display.c_right              = 160.00
+[LUA-print] [INFO] # display.c_top                = 284.00
+[LUA-print] [INFO] # display.c_bottom             = -284.00
 [LUA-print] [INFO] #
