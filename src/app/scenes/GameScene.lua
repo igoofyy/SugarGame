@@ -9,6 +9,7 @@ function GameScene:ctor()
 	-- self:configBackground()
 
 	self.backGroundLayer = GameBackGroundLayer.new()
+		:setAnchorPoint(0,0)
 		:addTo(self)
 	
 

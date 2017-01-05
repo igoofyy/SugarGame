@@ -21,7 +21,7 @@ end
 function MyApp:configGame()
 
 	cc.FileUtils:getInstance():addSearchPath("res/")
-    cc.Director:getInstance():setContentScaleFactor(568 / CONFIG_SCREEN_HEIGHT)
+    cc.Director:getInstance():setContentScaleFactor(1)
 
 end
 
