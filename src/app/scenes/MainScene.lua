@@ -24,6 +24,15 @@ end
 	self.backgroundLayer = MainBackGroundLayer.new()
     :addTo(self)
 
+    cc.ui.UIPushButton.new({ normal = "image/start_01.png", pressed = "image/start_02.png" })
+        :onButtonClicked(function()
+            print("start")
+            -- audio.playSound("sound/button.wav")
+            app:enterScene("GameScene", nil, "SLIDEINT", 0.5)
+        end)
+        :pos( display.cx , 50)
+        :addTo(self)
+
 end
 
 return MainScene

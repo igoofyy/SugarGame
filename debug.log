@@ -57,3 +57,4 @@ libpng warning: iCCP: known incorrect sRGB profile
 [LUA-print] [INFO] # display.c_top                = 284.00
 [LUA-print] [INFO] # display.c_bottom             = -284.00
 [LUA-print] [INFO] #
+[LUA-print] start
