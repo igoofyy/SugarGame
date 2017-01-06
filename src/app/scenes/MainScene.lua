@@ -28,7 +28,7 @@ end
         :onButtonClicked(function()
             print("start")
             -- audio.playSound("sound/button.wav")
-            app:enterScene("GameScene", nil, "SLIDEINT", 0.5)
+            app:enterScene("GameScene", nil, "SLIDEINT", 1)
         end)
         :pos( display.cx , 50)
         :addTo(self)

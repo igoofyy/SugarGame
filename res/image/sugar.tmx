@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="500" tilewidth="10" tileheight="10" nextobjectid="59">
+ <tileset firstgid="1" name="sugar2" tilewidth="10" tileheight="10" tilecount="36" columns="6">
+  <image source="sugar2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="37" name="food4" tilewidth="10" tileheight="10" tilecount="20" columns="5">
+  <image source="../../../../../Desktop/万圣节/HTML5兔子吃月饼小游戏/static/img/food4.png" width="50" height="46"/>
+ </tileset>
+ <tileset firstgid="57" name="food3" tilewidth="10" tileheight="10" tilecount="20" columns="5">
+  <image source="../../../../../Desktop/万圣节/HTML5兔子吃月饼小游戏/static/img/food3.png" width="50" height="46"/>
+ </tileset>
+ <tileset firstgid="77" name="food1" tilewidth="10" tileheight="10" tilecount="20" columns="5">
+  <image source="../../../../../Desktop/万圣节/HTML5兔子吃月饼小游戏/static/img/food1.png" width="50" height="46"/>
+ </tileset>
+ <tileset firstgid="97" name="food5" tilewidth="10" tileheight="10" tilecount="20" columns="5">
+  <image source="../../../../../Desktop/万圣节/HTML5兔子吃月饼小游戏/static/img/food5.png" width="50" height="46"/>
+ </tileset>
+ <layer name="块层 1" width="32" height="500">
+  <data encoding="base64" compression="zlib">
+   eJzt3VePFFcQBtAlZ5OjscmYjE2WQbItARIgcjTZJhuT+f/ie0aaZadvc2e69xzpe9vZkuahb1X1lWZiYvxcTC4ll5MrydXK9a8l15Mbyc3kVuX6t5M7yd/J3eRe5fr3kwfJw+RR8rhy/VK/JyeTUyOq/0fyZ/LXiOqfTs4kZ0dU/1xyPrkwovowSjuSnckvya5kd+XP70n2JvuS/cmB7/D5yc7og8mvyW/JoeTwkPWn8vnJzugjydHkWHI8OTFk/al83hkNwCDmWGck/WGvYK8A0Cf6VH0q9IU+XZ8OAKNSOleV3gMonatK7xGUzlWl9whK56rSewQAAACl7Lftt4Fvc7fB3QYAmIrS926lSt+7lSp97/a1GcnMZFYyO5mTzJ3k79t+7zYvmZ8sSBYmi5LFhf9zGEuSH5KlybJkebKiYv2VyapkdbImWZusq1h/fbIh+THZmPyU/Fyx/qZkc7Il2ZpsS7ZXrE93mBfNiwDQRd4Pej9Yyg6k3R3IsNw97pdhd2BtswOzA9s8YQcG1GWn2t2dqlnSLAn0m/nUfGo+BQYxx3V3jusac6e5E4blvbX31nSbPlOfCTTnGeoZCn1hrjPXAePP7t7uHpoyu5pdASjjLHWWQikzvZm+C5x3zjugGc9Pz0/oGvdD3A+Byeht9DZ0k/2j/SPUolfQKwBlPEc9RxmefaZ9JgDTi565nZ656c64rZ7ZztjOGOguc7g5HBgf5iPvFGC68ltdfqvLb3UBfdbVO99tzSdN9/dtzSdN9/fmE8aNnrmdnrnp99hWz9z0e2yrZ276PbbVM5s92p897BOd133yT/Jv8iR5mjyrXP958iJ5mbxK/qtc/3Xyf/ImeZu8q1z/ffIh+Zh8Sj5Xrs9oOU/G7zzR/9uZ961vhemg1nk6qG+udZ4O6ptrnaeD+uZa85m+GQDg+/sCRH4O1g==
+  </data>
+ </layer>
+ <objectgroup name="tiaoSugar">
+  <object id="1" x="45.0356" y="149.77" width="57.6037" height="46.0829">
+   <ellipse/>
+  </object>
+  <object id="2" x="203.184" y="138.249" width="67.0297" height="40.8463">
+   <ellipse/>
+  </object>
+  <object id="3" x="68.0771" y="793.884" width="62.8404" height="38.7516">
+   <ellipse/>
+  </object>
+  <object id="4" x="46.0829" y="1339.55" width="65.9824" height="42.9409">
+   <ellipse/>
+  </object>
+  <object id="5" x="58.651" y="1684.12" width="57.6037" height="35.6096">
+   <ellipse/>
+  </object>
+  <object id="6" x="196.9" y="2288.44" width="64.9351" height="50.2723">
+   <ellipse/>
+  </object>
+  <object id="7" x="91.1186" y="2570.17" width="69.1244" height="41.8936">
+   <ellipse/>
+  </object>
+  <object id="8" x="175.953" y="3251.99" width="61.793" height="41.8936">
+   <ellipse/>
+  </object>
+  <object id="9" x="60.7457" y="3673.02" width="55.509" height="34.5622">
+   <ellipse/>
+  </object>
+  <object id="10" x="75.4085" y="3975.7" width="60.7457" height="46.0829">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="bangbangSugar">
+  <object id="11" x="208.421" y="43.9883" width="27.2308" height="51.3196">
+   <ellipse/>
+  </object>
+  <object id="12" x="114.16" y="372.853" width="19.8995" height="57.6037">
+   <ellipse/>
+  </object>
+  <object id="13" x="201.089" y="599.078" width="38.7516" height="58.651">
+   <ellipse/>
+  </object>
+  <object id="14" x="128.823" y="1070.38" width="31.4202" height="46.0829">
+   <ellipse/>
+  </object>
+  <object id="15" x="206.326" y="1622.33" width="34.5622" height="62.8404">
+   <ellipse/>
+  </object>
+  <object id="16" x="72.2664" y="1912.44" width="37.7042" height="55.509">
+   <ellipse/>
+  </object>
+  <object id="17" x="51.3196" y="2205.7" width="42.9409" height="47.1303">
+   <ellipse/>
+  </object>
+  <object id="18" x="208.421" y="2677" width="31.4202" height="50.2723">
+   <ellipse/>
+  </object>
+  <object id="19" x="97.4026" y="2996.44" width="29.3255" height="48.1776">
+   <ellipse/>
+  </object>
+  <object id="20" x="97.4026" y="3408.04" width="30.3729" height="50.2723">
+   <ellipse/>
+  </object>
+  <object id="21" x="228.32" y="3845.83" width="32.4675" height="51.3196">
+   <ellipse/>
+  </object>
+  <object id="22" x="72.2664" y="4318.18" width="27.2308" height="63.8877">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="yellowSugar">
+  <object id="23" x="214.705" y="4551.74" width="50.2723" height="41.8936">
+   <ellipse/>
+  </object>
+  <object id="25" x="40.8463" y="4773.77" width="34.5622" height="51.3196">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="ghost">
+  <object id="26" x="61.793" y="6.28404" width="28.2782" height="50.2723">
+   <ellipse/>
+  </object>
+  <object id="27" x="151.864" y="149.77" width="28.2782" height="59.6984">
+   <ellipse/>
+  </object>
+  <object id="28" x="237.746" y="286.971" width="31.4202" height="61.793">
+   <ellipse/>
+  </object>
+  <object id="29" x="17.8048" y="519.481" width="30.3729" height="47.1303">
+   <ellipse/>
+  </object>
+  <object id="30" x="241.935" y="771.889" width="32.4675" height="53.4143">
+   <ellipse/>
+  </object>
+  <object id="31" x="248.22" y="1160.45" width="32.4675" height="54.4617">
+   <ellipse/>
+  </object>
+  <object id="32" x="53.4143" y="1457.9" width="25.1362" height="43.9883">
+   <ellipse/>
+  </object>
+  <object id="33" x="251.362" y="1878.93" width="41.8936" height="45.0356">
+   <ellipse/>
+  </object>
+  <object id="34" x="121.491" y="2158.57" width="25.1362" height="42.9409">
+   <ellipse/>
+  </object>
+  <object id="35" x="60.7457" y="2359.66" width="25.1362" height="58.651">
+   <ellipse/>
+  </object>
+  <object id="36" x="225.178" y="2465.44" width="40.8463" height="55.509">
+   <ellipse/>
+  </object>
+  <object id="37" x="59.6984" y="2761.83" width="32.4675" height="46.0829">
+   <ellipse/>
+  </object>
+  <object id="38" x="244.03" y="2896.94" width="38.7516" height="58.651">
+   <ellipse/>
+  </object>
+  <object id="39" x="207.373" y="3054.04" width="38.7516" height="42.9409">
+   <ellipse/>
+  </object>
+  <object id="40" x="47.1303" y="3158.78" width="33.5149" height="46.0829">
+   <ellipse/>
+  </object>
+  <object id="41" x="276.498" y="3330.54" width="38.7516" height="54.4617">
+   <ellipse/>
+  </object>
+  <object id="42" x="68.0771" y="3496.02" width="33.5149" height="46.0829">
+   <ellipse/>
+  </object>
+  <object id="43" x="248.22" y="3597.61" width="38.7516" height="49.225">
+   <ellipse/>
+  </object>
+  <object id="44" x="60.7457" y="3828.03" width="33.5149" height="37.7042">
+   <ellipse/>
+  </object>
+  <object id="45" x="138.249" y="4088.81" width="33.5149" height="45.0356">
+   <ellipse/>
+  </object>
+  <object id="46" x="225.178" y="4338.08" width="21.9941" height="40.8463">
+   <ellipse/>
+  </object>
+  <object id="47" x="16.7574" y="4496.23" width="32.4675" height="42.9409">
+   <ellipse/>
+  </object>
+  <object id="48" x="219.941" y="4615.63" width="30.3729" height="41.8936">
+   <ellipse/>
+  </object>
+  <object id="49" x="104.734" y="4770.63" width="25.1362" height="39.7989">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="greenSugar">
+  <object id="50" x="253.456" y="1356.3" width="56.5563" height="69.1244">
+   <ellipse/>
+  </object>
+  <object id="51" x="261.835" y="1733.35" width="56.5563" height="72.2664">
+   <ellipse/>
+  </object>
+  <object id="52" x="21.9941" y="2040.22" width="55.509" height="57.6037">
+   <ellipse/>
+  </object>
+  <object id="53" x="129.87" y="4189.36" width="58.651" height="60.7457">
+   <ellipse/>
+  </object>
+  <object id="54" x="114.16" y="4437.58" width="70.1718" height="59.6984">
+   <ellipse/>
+  </object>
+  <object id="55" x="256.598" y="4403.02" width="70.1718" height="74.3611">
+   <ellipse/>
+  </object>
+  <object id="56" x="271.261" y="4651.24" width="50.2723" height="54.4617">
+   <ellipse/>
+  </object>
+  <object id="57" x="554.043" y="3586.09">
+   <ellipse/>
+  </object>
+  <object id="58" x="554.043" y="3586.09">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

@@ -9,6 +9,11 @@ function GameScene:ctor()
 
 	-- self:configBackground()
 
+	-- -- 设置世界的物理引擎
+ --    self.world = self:getPhysicsWorld()
+ --    self.world:setGravity(cc.p(0, -92))
+ --    self.world:setDebugDrawMask(cc.PhysicsWorld.DEBUGDRAW_ALL)
+
 	self.backGroundLayer = GameBackGroundLayer.new()
 		:setAnchorPoint(0,0)
 		:addTo(self)
