@@ -1,11 +1,11 @@
 
-local Sugar = class("Sugar", function()
-    return display.newSprite("image/sugar2.png")
+local Ghost = class("Ghost", function()
+    return display.newSprite("image/ghost.png")
 end)
 
 local MATERIAL_DEFAULT = cc.PhysicsMaterial(0.0, 0.0, 0.0)
 
-function Sugar:ctor(x, y)
+function Ghost:ctor(x, y)
 
     local heartBody = cc.PhysicsBody:createCircle(self:getContentSize().width / 2,
         MATERIAL_DEFAULT)
@@ -17,10 +17,10 @@ function Sugar:ctor(x, y)
 
     self:setPhysicsBody(heartBody)
     self:getPhysicsBody():setGravityEnable(false)  
-    self:setTag(CONFIG_GAME_SUGAR_TAG)  
+    self:setTag(CONFIG_GAME_GHOST_TAG)  
 
     self:setPosition(x, y)
 end
 
-return Sugar
+return Ghost
 

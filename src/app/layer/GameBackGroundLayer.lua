@@ -1,4 +1,5 @@
 local Sugar = require("app.object.Sugar")
+local Ghost = require("app.object.Ghost")
 
 GameBackGroundLayer = class("GameBackGroundLayer", function()
 	return display.newLayer();
@@ -30,8 +31,9 @@ function GameBackGroundLayer:ctor()
 		:align(display.BOTTOM_LEFT, display.left, display.bottom)
 		:addTo(self)
 
-    self:addBody("ghost", Sugar)
-	
+    self:addBody("greenSugar", Sugar)
+	self:addBody("ghost",Ghost)
+
 	self:addNodeEventListener(cc.NODE_ENTER_FRAME_EVENT, handler(self, self.scrollBackgrounds))
     self:scheduleUpdate()
 end
@@ -53,11 +55,9 @@ function GameBackGroundLayer:addBody(objectGroupName, class)
         local x = dict["x"]
         key = "y"
         local y = dict["y"]
-    
+    -- 把对应的精灵添加到地图
         local sprite = class.new(x, y)
        		:addTo(self.map)
-
-        print("===================",x,y)
     end
 end
 
@@ -79,7 +79,7 @@ function GameBackGroundLayer:scrollBackgrounds()
 	end
 
 	if self.map:getPositionY() - 2 <= - self.map:getContentSize().height then
-		self.map:setPosition(0,0)
+		self.map:setPosition(0,CONFIG_SCREEN_HEIGHT)
 	else
 		self.map:setPosition(0,self.map:getPositionY() - 6)
 	end
