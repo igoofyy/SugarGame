@@ -9,7 +9,7 @@ function Ghost:ctor(x, y)
 
     local heartBody = cc.PhysicsBody:createCircle(self:getContentSize().width / 2,
         MATERIAL_DEFAULT)
-    heartBody:setDynamic(false)
+    heartBody:setRotationEnable(false)
 
     heartBody:setCategoryBitmask(0x0001)
     heartBody:setContactTestBitmask(0x0100)

@@ -11,7 +11,11 @@ end
 
 function MyApp:run()
     
+    math.randomseed(os.time())
+
+
     self:configGame()
+
 
     self:enterScene("MainScene")
 

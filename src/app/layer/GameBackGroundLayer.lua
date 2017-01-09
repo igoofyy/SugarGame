@@ -12,7 +12,7 @@ function GameBackGroundLayer:ctor()
 	self.bg02 = nil
 	self.player = nil
 	self.isPlayBackMusic = true
-	self.bird = {}
+	self.ghost = {}
 
 	self.bg01 = display.newSprite("image/bg01.jpg")
 	-- :setContentSize(display.cx,display.cy)
@@ -36,6 +36,9 @@ function GameBackGroundLayer:ctor()
 
 	self:addNodeEventListener(cc.NODE_ENTER_FRAME_EVENT, handler(self, self.scrollBackgrounds))
     self:scheduleUpdate()
+
+	self:addVelocityToBird()
+
 end
 
 function GameBackGroundLayer:addBody(objectGroupName, class)
@@ -55,10 +58,61 @@ function GameBackGroundLayer:addBody(objectGroupName, class)
         local x = dict["x"]
         key = "y"
         local y = dict["y"]
+
     -- 把对应的精灵添加到地图
         local sprite = class.new(x, y)
-       		:addTo(self.map)
+       		:addTo(self)
+
+	if objectGroupName == "ghost" then
+
+        table.insert(self.ghost, sprite)
+
     end
+    end
+end
+
+function GameBackGroundLayer:addVelocityToBird()
+
+    local  dict    = nil
+
+    local  i       = 0
+
+    local  len     = table.getn(self.ghost)
+
+    print(#self.ghost)
+
+    for i = 0, len-1, 1 do
+
+        dict = self.ghost[i + 1]
+
+        if dict == nil  then
+
+            break
+
+        end
+
+
+
+        local x = dict:getPositionX()
+
+        if x <= display.width  - self.map:getPositionX() then
+
+            if dict:getPhysicsBody():getVelocity().x == 0 then
+
+                dict:getPhysicsBody():setVelocity(cc.p(math.random(-40, 40), -98))
+                print(dict:getPhysicsBody():getVelocity().y);
+				
+            else
+            	-- print("+++++++++++++++++")
+
+                table.remove(self.ghost, i + 1)
+
+            end
+
+        end
+
+    end
+
 end
 
 
@@ -78,13 +132,15 @@ function GameBackGroundLayer:scrollBackgrounds()
 		self.bg02:setPosition(display.cx,self.bg02:getPositionY() - 1)
 	end
 
-	if self.map:getPositionY() - 2 <= - self.map:getContentSize().height then
-		self.map:setPosition(0,CONFIG_SCREEN_HEIGHT)
+	number01 = self.map:getPositionY() - 2
+	number02 =  self.map:getContentSize().height
+	if number01  <= -number02  then
+		self.map:setPosition(0,0)
 	else
-		self.map:setPosition(0,self.map:getPositionY() - 6)
+		self.map:setPosition(0,self.map:getPositionY() - 10)
 	end
 	
-	-- print(self.map:getPositionY())
+	print(self.map:getPositionY(),self.map:getPositionX())
 end
 
 
